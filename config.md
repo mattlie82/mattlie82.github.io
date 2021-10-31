@@ -1,8 +1,9 @@
 <!--
 Add here global page variables to use throughout your website.
+
 -->
 +++
-author = "Septimia Zenobia"
+author = "Matthias Liero"
 mintoclevel = 2
 
 # Add here files or directories that should be ignored by Franklin, otherwise
