@@ -1,187 +1,133 @@
-@def title = "Franklin Example"
+@def title = "Personal homepage of Matthias Liero"
 @def tags = ["syntax", "code"]
 
-# How to use Franklin
+# Personal homepage of Matthias Liero
 
-\tableofcontents <!-- you can use \toc as well -->
 
-This section is meant as a refresher if you're new to Franklin.
-Have a look at both how the website renders and the corresponding markdown (`index.md`).
-Modify at will to get a feeling for how things work!
 
-Ps: if you want to modify the header or footer or the general look of the website, adjust the files in
-* `src/_css/` and
-* `src/_html_parts/`.
+@@left ![](/assets/Foto.jpg) @@
+I am a post-doc at the Weierstra&szlig; 
+Institute for Applied Analysis and Stochastics, Berlin, in the research group [Partial Differential Equations](https://www.wias-berlin.de/research/rgs/fg1/index.jsp?lang=1) 
+of [Alexander Mielke]("https://www.wias-berlin.de/people/mielke"). 
+I am also a member of the [Berlin Mathematical School (BMS)]("httpa://www.math-berlin.de") in the Postdoctoral Faculty.
 
-## The base with Markdown
 
-The [standard markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be used such as titles using `#`, lists:
+\toc <!-- you can use \toc as well -->
 
-* element with **bold**
-* element with _emph_
+## Contact
+- Weierstraß-Institut, Mohrenstraße 39, 10117 Berlin, Office 303
+- E-mail: [Matthias.Liero-please-remove-this-text-@wias-berlin.de]("mailto:Matthias.Liero-please-remove-this-text-@wias-berlin.de"), ([Public Key]("pubkey_liero.asc"))
+- Phone: +49 (0) 30 20372 542
+- Fax    +49 (0) 30 20372 311
 
-or code-blocks `inline` or with highlighting (note the `@def hascode = true` in the source to allow [highlight.js](https://highlightjs.org/) to do its job):
+## Research interests
 
-```julia
-abstract type Point end
-struct PointR2{T<:Real} <: Point
-    x::T
-    y::T
-end
-struct PointR3{T<:Real} <: Point
-    x::T
-    y::T
-    z::T
-end
-function len(p::T) where T<:Point
-  sqrt(sum(getfield(p, η)^2 for η ∈ fieldnames(T)))
-end
-```
+My mathematical expertise is in the field of nonlinear partial differential equations. In particular, the rigorous derivation of new effective models in various problems in natural sciences using novel mathematical techniques is one of my major interests. In my diploma I gave a rigorous justification of an evolutionary elastoplastic plate model for continuum mechanics using the notion of Gamma-convergence. In a joint work with Ulisse Stefanelli (Vienna), we extended the Weighted-Energy-Dissipation principle from parabolic to hyperbolic equations to make them accessible to variational methods.
 
-You can also quote stuff
+In the recent years, the mathematical modeling, analysis, and simulation of optoelectronic devices, such as solar cells and organic light-emitting diodes, has become an essential application for me. I work closely with my colleagues Annegret Glitzky, Thomas Koprucki, J&uuml;rgen Fuhrmann, and Duy-Hai Doan from WIAS on organic devices. In a joint work with the Dresden Integrated Center for Applied Physics and Photonic Materials, in particular with Axel Fischer, Reinhard Scholz and Sebastian Reineke, we derived a novel PDE model, involving the p(x)-Laplacian with discontinuous p(x), to describe the current and heat flow in organic light-emitting diodes. This was the first model to correctly predict S-shaped current-voltage characteristics with regions of negative differential resistance as observed in measurements. 
 
-> You must have chaos within you to ...
+Moreover, with Michael Sawatzki and Hans Kleemann from IAPP we investigate the behavior and new concepts of organic transistors.
 
-or have tables:
+However, also the more abstract theory behind partial differential equations is in the focus of my current work. One particular highlight of a recent joint work with Alexander Mielke (WIAS & HUB) and Giuseppe Savar&eacute; (Milano) was the derivation and characterization of the so-called Hellinger-Kantorovich distance, which can be seen as a generalization of the famous Wasserstein distance to arbitrary measures.
 
-| English         | Mandarin   |
-| --------------- | ---------- |
-| winnie the pooh | 维尼熊      |
+In general, my scientific work is guided by the aim to strengthen the cooperation between analysis and its applications by inventing and further developing the mathematical foundations and techniques to make them applicable for practical questions in other sciences.
 
-Note that you may have to do a bit of CSS-styling to get these elements to look the way you want them (the same holds for the whole page in fact).
 
-### Symbols and html entities
 
-If you want a dollar sign you have to escape it like so: \$, you can also use html entities like so: &rarr; or &pi; or, if you're using Juno for instance, you can use `\pi[TAB]` to insert the symbol as is: π (it will be converted to a html entity).[^1]
+## Current projects
 
-If you want to show a backslash, just use it like so: \ ; if you want to force a line break, use a ` \\ ` like \\ so (this is on a new line).[^blah]
+- MATH+ subproject AA2-10, *Electro-Mechanical Coupling for Semiconductor Devices*, with Patricio Farrell (WIAS), Annegret Glitzky (WIAS), and Barbara Zwicknagl (HUB), January 2021 -- December 2022
+- SPP 2256 Varational Methods for Predicting Complex Phenomena in Engineering Structures and Materials, subproject *Analysis for thermo-mechanical models with internal variables*, with Alexander Mielke (WIAS & HUB), 2021 -- 2023
 
-If you want to show a backtick, escape it like so: \` and if you want to show a tick in inline code use double backticks like ``so ` ...``.
+## Completed projects
+- ECMath subproject SE18 in Research Center Matheon, *Models for heat and charge-carrier flow in organic electronics*, with Annegret Glitzky (WIAS), June 2017 -- December 2018
+- MATH+ transition project SE18, *Models for heat and charge-carrier flow in organic electronics*, with Annegret Glitzky (WIAS), January 2019 -- September 2019
+- MATH+ subproject AA2-1, *Hybrid models for the electrothermal behavior of organic semiconductor devices*, with Annegret Glitzky (WIAS), January 2019 -- December 2020
 
-Footnotes are nice too:
+## Teaching
+- summer term 2021: Partial Differential Equations, at Humboldt Universit&auml;t zu Berlin, Wednesday from 9am and Thursdays from 11:30 am. The tutorial is on Thursday from 1:30pm
+- summer term 2018: Multidimensional Calculus of Variations, at Humboldt Universit&auml;t zu Berlin, Tuesdays from 1pm and Thursdays from 9am. The tutorial is on Tuesday from 3pm
+- winter term WS2017/18: Optimal transport and Wasserstein gradient flows, at Humboldt Universit&auml;t zu Berlin, Tuesdays from 9am
 
-[^1]: this is the text for the first footnote, you can style all this looking at `.fndef` elements; note that the whole footnote definition is _expected to be on the same line_.
-[^blah]: and this is a longer footnote with some blah from veggie ipsum: turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko.
 
-## Basic Franklin extensions
 
-### Divs
+## Short CV
+<!-- | year         |                                           
+|--------------|-----------------------------------------------|
+| 1982         | Born in Berlin, Germany                       |
+| 2002         |  Abitur, Carl-von-Ossietzky Gymnasium, Berlin |
+| 2002 -- 2003 | Civilian service, Charit&eacute; Berlin       | -->
 
-It is sometimes useful to have a short way to make a part of the page belong to a div so that it can be styled separately.
-You can do this easily with Franklin by using `@@divname ... @@`.
-For instance, you could want a blue background behind some text.
+## Publications
 
-@@colbox-blue
-Here we go! (this is styled in the css sheet with name "colbox-blue").
-@@
+0. Sebastian Reineke, Anton Kirch,  Fischer, Matthias Liero, Jürgen Fuhrmann, Annegret Glitzky, *Experimental proof of Joule heating-induced switched-back regions in OLEDs*, accepted in Light: Science & Applications, 2020
 
-Since it's just a `<div>` block, you can put this construction wherever you like and locally style your text.
+0. Annegret Glitzky, Matthias Liero, Instationary drift-diffusion problems with Gauss--Fermi statistics and field-dependent mobility for organic semiconductor devices, Comm. Math. Sci., 17, 33--59, 2019
 
-### LaTeX and Maths
+0. Annegret Glitzky, Matthias Liero, Grigor Nika, An existence result for a class of electrothermal drift-diffusion models with Gauss--Fermi statistics for organic semiconductor devices, WIAS-Preprint 2593, 2019
 
-Essentially three things are imitated from LaTeX
+0. Duy Hai Doan, Annegret Glitzky, Matthias Liero, Analysis of a drift-diffusion model for organic semiconductor devices, Z. Angew. Math. Phys., 70, 55, 2019
 
-1. you can introduce definitions using `\newcommand`
-1. you can use hyper-references with `\eqref`, `\cite`, ...
-1. you can show nice maths (via KaTeX)
+0. Matthias Liero, Stefano Melchionna, The weighted energy-dissipation principle and evolutionary $\Gamma$-convergence for doubly nonlinear problems, ESAIM Control Optim. Calc. Var., 25, 36, 2019, [Link]("https://doi.org/10.1051/cocv/2018023")
 
-The definitions can be introduced in the page or in the `config.md` (in which case they're available everywhere as opposed to just in that page).
-For instance, the commands `\scal` and `\R` are defined in the config file (see `src/config.md`) and can directly be used whereas the command `\E` is defined below (and therefore only available on this page):
+0. Yichu Zheng, Axel Fischer, Michael Sawatzki, Duy Hai Doan, Matthias Liero, Annegret Glitzky, Sebastian Reineke, Stefan C. B. Mannsfeld,  Introducing pinMOS Memory: A Novel, Nonvolatile Organic Memory Device, Advanced Functional Materials, n/a, 1907119, 2019 [(Link)]("https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201907119")
 
-\newcommand{\E}[1]{\mathbb E\left[#1\right]}
+0. Annegret Glitzky, Matthias Liero, Grigor Nika, Analysis of a hybrid model for the electro-thermal behavior of semiconductor heterostructures, WIAS-Preprint, 2636, 2019
 
-Now we can write something like
+0. Duy Hai Doan, Axel Fischer, Jürgen Fuhrmann, Annegret Glitzky, Matthias Liero, Drift-diffusion simulation of S-shaped current-voltage relations for organic semiconductor devices, WIAS-Preprint   2630, 2019
 
-$$  \varphi(\E{X}) \le \E{\varphi(X)}. \label{equation blah} $$
+0. Thomas Frenzel, Matthias Liero, Effective diffusion in thin structures via generalized gradient systems and EDP-convergence, WIAS-Preprint 2601, 2019
 
-since we've given it the label `\label{equation blah}`, we can refer it like so: \eqref{equation blah} which can be convenient for pages that are math-heavy.
+0. Karoline Disser, Matthias Liero, Jonathan Zinsl, Evolutionary $\Gamma$-convergence of gradient systems modeling slow and fast chemical reactions, Nonlinearity, 31, 3689--3706, 2018 [(Link)]("https://doi.org/10.1088%2F1361-6544%2Faac353")
 
-In a similar vein you can cite references that would be at the bottom of the page: \citep{noether15, bezanson17}.
+0. Matthias Liero, Alexander Mielke, Giuseppe Savar&eacute;, Optimal Entropy-Transport problems and a new Hellinger--Kantorovich distance between positive measures, Inventiones mathematicae, 211,   969--1117, 2018 [(Link)]("https://doi.org/10.1007/s00222-017-0759-8")
 
-**Note**: the LaTeX commands you define can also incorporate standard markdown (though not in a math environment) so for instance let's define a silly `\bolditalic` command.
+0. Franz Michael Sawatzki, Duy Hai Doan, Hans Kleemann, Matthias Liero, Annegret Glitzky, Thomas Koprucki, Karl Leo, Balance of Horizontal and Vertical Charge Transport in Organic Field-Effect Transistors, Phys. Rev. Applied, 10, 034069, 2018 [(Link)]("https://link.aps.org/doi/10.1103/PhysRevApplied.10.034069")
 
-\newcommand{\bolditalic}[1]{_**!#1**_} <!--_ ignore this comment, it helps atom to not get confused by the trailing underscore when highlighting the code but is not necessary.-->
+0. Axel Fischer, Manuel Pfalz, Koen Vandewal, Simone Lenk, Matthias Liero, Annegret Glitzky, Sebastian Reineke, Full Electrothermal OLED Model Including Nonlinear Self-heating Effects, Phys. Rev. Applied, 10, 014023, 2018 [(Link)]("https://link.aps.org/doi/10.1103/PhysRevApplied.10.014023")
 
-and use it \bolditalic{here for example}.
+0. Matthias Liero, Sina Reichelt, Homogenization of Cahn--Hilliard-type equations via evolutionary $\Gamma$-convergence, Nonlinear Differential Equations and Applications NoDEA, 25, 6, 2018, [(Link)]("https://doi.org/10.1007/s00030-018-0495-9")
 
-Here's another quick one, a command to change the color:
+0. Jürgen Fuhrmann, Annegret Glitzky, Matthias Liero, Hybrid Finite-Volume/Finite-Element Schemes for p(x)-Laplace Thermistor Models, In: Cl&eacute;ment Canc&egrave;s, Pascal Omnes (eds.) Finite Volumes for Complex Applications VIII - Hyperbolic, Elliptic and Parabolic Problems: FVCA 8, Lille, France, June 2017, 397--405, 2017
 
-\newcommand{\col}[2]{~~~<span style="color:#1">#2</span>~~~}
+0. Matthias Liero, Jürgen Fuhrmann, Annegret Glitzky, Thomas Koprucki, Axel Fischer, Sebastian Reineke, 3D electrothermal simulations of organic LEDs showing negative differential resistance, Opt. Quantum Electron., 49, 330/1--330/8, 2017
 
-This is \col{blue}{in blue} or \col{#bf37bc}{in #bf37bc}.
+0. Miroslav Bul&iacute;&#269;ek, Annegret Glitzky, Matthias Liero, Thermistor systems of p(x)-Laplace-type with discontinuous exponents via entropy solutions, Discr. Cont. Dynam. Systems Ser. S, 10, 697--713, 2017
 
-### A quick note on whitespaces
+0. Matthias Liero, Alexander Mielke, Mark A. Peletier, D. R. Michiel Renger, On microscopic origins of generalized gradient structures, Discr. Cont. Dynam. Systems Ser. S, 10, 1, 2017, [(Link)]("http://aimsciences.org//article/id/c40c3ab2-9b67-4a0b-a0ad-de66aeaf07c3")
 
-For most commands you will use `#k` to refer to the $k$-th argument as in LaTeX.
-In order to reduce headaches, this forcibly introduces a whitespace on the left of whatever is inserted which, usually, changes nothing visible (e.g. in a math settings).
-However there _may be_ situations where you do not want this to happen and you know that the insertion will not clash with anything else.
-In that case, you should simply use `!#k` which will not introduce that whitespace.
-It's probably easier to see this in action:
+0. Annegret Glitzky, Matthias Liero, Analysis of p(x)-Laplace thermistor models describing the electrothermal behavior of organic semiconductor devices, Nonlinear Analysis: Real World Applications, 34, 536--562, 2017, [(Link)]("http://www.sciencedirect.com/science/article/pii/S1468121816301183")
 
-\newcommand{\pathwith}[1]{`/usr/local/bin/#1`}
-\newcommand{\pathwithout}[1]{`/usr/local/bin/!#1`}
+0. Matthias Liero, Axel Fischer, Jürgen Fuhrmann, Thomas Koprucki, Annegret Glitzky, A PDE Model for Electrothermal Feedback in Organic Semiconductor Devices, Progress in Industrial Mathematics at ECMI 2016, 99--106, 2017
 
-* with: \pathwith{script.jl}, there's a whitespace you don't want 🚫
-* without: \pathwithout{script.jl} here there isn't ✅
+0. Matthias Liero, Jürgen Fuhrmann, Annegret Glitzky, Thomas Koprucki, Axel Fischer, Sebastian Reineke, Modeling and Simulation of Electrothermal Feedback in Large-area Organic LEDs, Proceedings of the 17th International Conference on Numerical Simulation of Optoelectronic Devices, NUSOD 2017, 105--106, 2017
 
-### Raw HTML
+0. Matthias Liero, The Hellinger-Kantorovich distance as a generalization of optimal-transport distances to scalar reaction-diffusion problems, Oberwolfach Rep. 14, 47--50, 2017
 
-You can include raw HTML by just surrounding a block with `~~~`.
-Not much more to add.
-This may be useful for local custom layouts like having a photo next to a text in a specific way.
+0. Miroslav Bul&iacute;&#269;ek, Annegret Glitzky, Matthias Liero, Systems describing electrothermal effects with p(x)-Laplace like structure for discontinuous variable exponents, SIAM J. Math. Analysis, 48, 3496--3514, 2016
 
-~~~
-<div class="row">
-  <div class="container">
-    <img class="left" src="/assets/rndimg.jpg">
-    <p>
-    Marine iguanas are truly splendid creatures. They're found on the Gálapagos islands, have skin that basically acts as a solar panel, can swim and may have the ability to adapt their body size depending on whether there's food or not.
-    </p>
-    <p>
-    Evolution is cool.
-    </p>
-    <div style="clear: both"></div>      
-  </div>
-</div>
-~~~
+0. Adrien Bercegol, Binoy Chacko, Reiner Klenk, Iver Lauermann, Martha Ch. Lux-Steiner, Matthias Liero, Point contacts at the copper-indium-gallium-selenide interface--A theoretical outlook, Journal of Applied Physics, 119, 155304, 2016, [(Link)]("https://doi.org/10.1063/1.4947267")
 
-**Note 1**: again, entire such blocks can be made into latex-like commands via `\newcommand{\mynewblock}[1]{...}`.
+0. Matthias Liero, Alexander Mielke, Giuseppe Savar&eacute;, Optimal Transport in Competition with Reaction: The Hellinger--Kantorovich Distance and Geodesic Curves, SIAM Journal on Mathematical Analysis, 48, 2869--2911, 2016, [(Link)]("https://doi.org/10.1137/15M1041420")
 
-**Note 2**: whatever is in a raw HTML block is *not* further processed (so you can't have LaTeX in there for instance). A partial way around this is to use `@@...` blocks which *will* be recursively parsed. The following code gives the same result as above with the small difference that there is LaTeX being processed in the inner div.
+0. Matthias Liero, Thomas Koprucki, Axel Fischer, Reinhard Scholz, Annegret Glitzky, p-Laplace thermistor modeling of electrothermal feedback in organic semiconductor devices, Z. Angew. Math. Phys., 66, 2957--2977, 2015
 
-@@row
-@@container
-@@left ![](/assets/rndimg.jpg) @@
-@@
-Marine iguanas are **truly splendid** creatures. They're not found in equations like $\exp(-i\pi)+1$. But they're still quite cool.
-~~~
-<div style="clear: both"></div>
-~~~
-@@
+0. Karoline Disser, Matthias Liero, On gradient structures for Markov chains and the passage to Wasserstein gradient flows, Networks & Heterogeneous Media, 10, 233--253, 2015, [(Link)]("http://aimsciences.org//article/id/2c5d4c6f-b5e6-4ab3-b6e8-0d268d025407")
 
-## Pages and structure
+0. Matthias Liero, Alexander Mielke, Gradient structures and geodesic convexity for reaction-diffusion systems, Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 371, 20120346, 2013, [(Link)]("https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2012.0346")
 
-Here are a few empty pages connecting to the menu links to show where files can go and the resulting paths. (It's probably best if you look at the source folder for this).
+0. Matthias Liero, Passing from bulk to bulk-surface evolution in the Allen--Cahn equation, Nonlinear Differential Equations and Applications NoDEA, 20, 919--942, 2013, [(Link)]("https://doi.org/10.1007/s00030-012-0189-7")
 
-* [menu 1](/menu1/)
-* [menu 2](/menu2/)
-* [menu 3](/menu3/)
+0. Matthias Liero, Ulisse Stefanelli, A new minimum principle for Lagrangian mechanics, J. Nonlinear Sci., 23, 179--204, 2013
 
-## References (not really)
+0. Matthias Liero, Ulisse Stefanelli, Weighted inertia-dissipation-energy functionals for semilinear equations, Boll. Unione Mat. Ital. (9), 6, 1--27, 2013
 
-* \biblabel{noether15}{Noether (1915)} **Noether**,  Körper und Systeme rationaler Funktionen, 1915.
-* \biblabel{bezanson17}{Bezanson et al. (2017)} **Bezanson**, **Edelman**, **Karpinski** and **Shah**, [Julia: a fresh approach to numerical computing](https://julialang.org/research/julia-fresh-approach-BEKS.pdf), SIAM review 2017.
+0. Matthias Liero, Thomas Roche, Rigorous derivation of a plate theory in linear elastoplasticity via $\Gamma$-convergence, Nonlinear Differential Equations and Applications NoDEA, 19, 437--457, 2012, [(Link)]("https://doi.org/10.1007/s00030-011-0137-y")
 
-## Header and Footer
+0. Matthias Liero, Alexander Mielke, An evolutionary elastoplastic plate model derived via $\Gamma$-convergence, Math. Models Meth. Appl. Sci. (M$^3$AS), 21, 1961--1986, 2011
 
-As you can see here at the bottom of the page, there is a footer which you may want on all pages but for instance you may want the date of last modification to be displayed.
-In a fashion heavily inspired by [Hugo](https://gohugo.io), you can write things like
+0. Pavel Krej&#269;&iacute;, Matthias Liero, Rate independent Kurzweil processes, Applications of Mathematics, 54, 117--145, 2009, [(Link)]("https://dml.cz/handle/10338.dmlcz/140355")
 
-```html
-Last modified: {{ fill fd_mtime }}.
-```
+0. Hannelore Liero, Matthias Liero, Testing the Acceleration Function in Lifetime Models, In: Filia Vonta, Mikhail Nikulin, Nikolaos Limnios, Catherine Huber-Carol (eds.) Statistical Models and Methods for Biomedical and Technical Systems, 225--239, 2008, [(Link)]("https://doi.org/10.1007/978-0-8176-4619-6_17")
 
-(cf. `src/_html_parts/page_foot.html`) which will then replace these braces with the content of a dictionary of variables at the key `fd_mtime`.
-This dictionary of variables is accessed locally by pages through `@def varname = value` and globally through the `config.md` page via the same syntax.
 
-There's a few other such functions of the form `{{fname p₁ p₂}}` as well as support for conditional blocks. If you wander through the `src/_html_parts/` folder and its content, you should be able to see those in action.
