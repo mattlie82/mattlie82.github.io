@@ -93,7 +93,7 @@ h6 {
   margin-bottom: 0.8em;
   font-weight: 500;
   line-height: 1.15;
-  color: #27262b;
+  color: #0066cc;
 }
 
 p {
@@ -101,7 +101,7 @@ p {
 }
 
 a {
-  color: #0e39b0;
+  color: #0066cc;
   text-decoration: none;
 }
 
@@ -182,7 +182,7 @@ SIDE BAR
   align-items: center;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #27262b;
+  color: #0066cc;
   font-size: 18px !important;
   line-height: 1.15em;
 }
@@ -195,7 +195,7 @@ SIDE BAR
   line-height: 60px;
   padding: 1rem;
   align-items: center;
-  color: #0e39b0;
+  color: #0066cc;
   text-transform: uppercase;
   background: transparent;
   text-align: right;
@@ -264,7 +264,7 @@ SIDE BAR
 
 .menu-list-link.active {
   font-weight: 600;
-  color: #27262b;
+  color: #0066cc;
   text-decoration: none;
 }
 
