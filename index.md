@@ -16,7 +16,7 @@ I am also a member of the [Berlin Mathematical School (BMS)](https://www.math-be
 
 ## Contact
 - Weierstraß-Institut, Mohrenstraße 39, 10117 Berlin, Office 303
-- E-mail: [Matthias.Liero-please-remove-this-text-@wias-berlin.de]("mailto:M..Liero-please-remove-this-text-@wias-berlin.de"), ([Public Key](/assets/pubkey_liero.asc))
+- E-mail: [Matthias.Liero-please-remove-this-text-@wias-berlin.de](mailto:Matthias.Liero-please-remove-this-text-@wias-berlin.de), ([Public Key](/assets/pubkey_liero.asc))
 - Phone: +49 (0) 30 20372 542
 - Fax:   +49 (0) 30 20372 311
 
@@ -56,12 +56,7 @@ I am contributing to the software projects [pdelib](https://www.wias-berlin.de/s
 See [teaching page](/teaching/) for more details.
 
 
-<!-- ## Short CV
-| year         |                                           
-|--------------|-----------------------------------------------|
-| 1982         | Born in Berlin, Germany                       |
-| 2002         |  Abitur, Carl-von-Ossietzky Gymnasium, Berlin |
-| 2002 -- 2003 | Civilian service, Charit&eacute; Berlin       | -->
+
 
 ## Publications
 
@@ -91,19 +86,19 @@ See [teaching page](/teaching/) for more details.
 
 0. D. H. Doan, A. Glitzky, M. Liero.  *Analysis of a drift-diffusion model for organic semiconductor devices*, Z. Angew. Math. Phys., 70, 55, 2019 [(Link)](https://link.springer.com/article/10.1007/s00033-019-1089-z)
 
-0. M. Liero, S. Melchionna. *The weighted energy-dissipation principle and evolutionary $\Gamma$-convergence for doubly nonlinear problems*, ESAIM Control Optim. Calc. Var., 25, 36, 2019, [(Link)]("https://doi.org/10.1051/cocv/2018023")
+0. M. Liero, S. Melchionna. *The weighted energy-dissipation principle and evolutionary $\Gamma$-convergence for doubly nonlinear problems*, ESAIM Control Optim. Calc. Var., 25, 36, 2019, [(Link)](https://doi.org/10.1051/cocv/2018023)
 
-0. Y. Zheng, A. Fischer, M. Sawatzki, D. H. Doan, M. Liero, A. Glitzky, S. Reineke, Stefan C. B. Mannsfeld. *Introducing pinMOS Memory: A Novel, Nonvolatile Organic Memory Device, Advanced Functional Materials*, 1907119, 2019 [(Link)]("https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201907119")
+0. Y. Zheng, A. Fischer, M. Sawatzki, D. H. Doan, M. Liero, A. Glitzky, S. Reineke, Stefan C. B. Mannsfeld. *Introducing pinMOS Memory: A Novel, Nonvolatile Organic Memory Device, Advanced Functional Materials*, 1907119, 2019 [(Link)](https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201907119)
 
-0. K. Disser, M. Liero, Jonathan Zinsl. *Evolutionary $\Gamma$-convergence of gradient systems modeling slow and fast chemical reactions*, Nonlinearity, 31, 3689--3706, 2018 [(Link)]("https://doi.org/10.1088%2F1361-6544%2Faac353")
+0. K. Disser, M. Liero, Jonathan Zinsl. *Evolutionary $\Gamma$-convergence of gradient systems modeling slow and fast chemical reactions*, Nonlinearity, 31, 3689--3706, 2018 [(Link)](https://doi.org/10.1088%2F1361-6544%2Faac353)
 
-0. M. Liero, A. Mielke, G. Savar&eacute;. *Optimal Entropy-Transport problems and a new Hellinger--Kantorovich distance between positive measures*, Inventiones mathematicae, 211,   969--1117, 2018 [(Link)]("https://doi.org/10.1007/s00222-017-0759-8")
+0. M. Liero, A. Mielke, G. Savar&eacute;. *Optimal Entropy-Transport problems and a new Hellinger--Kantorovich distance between positive measures*, Inventiones mathematicae, 211,   969--1117, 2018 [(Link)](https://doi.org/10.1007/s00222-017-0759-8)
 
-0. F. M. Sawatzki, D. H. Doan, H. Kleemann, M. Liero, A. Glitzky, Th. Koprucki, K. Leo. *Balance of Horizontal and Vertical Charge Transport in Organic Field-Effect Transistors*, Phys. Rev. Applied, 10, 034069, 2018 [(Link)]("https://link.aps.org/doi/10.1103/PhysRevApplied.10.034069")
+0. F. M. Sawatzki, D. H. Doan, H. Kleemann, M. Liero, A. Glitzky, Th. Koprucki, K. Leo. *Balance of Horizontal and Vertical Charge Transport in Organic Field-Effect Transistors*, Phys. Rev. Applied, 10, 034069, 2018 [(Link)](https://link.aps.org/doi/10.1103/PhysRevApplied.10.034069)
 
-0. A. Fischer, M. Pfalz, K. Vandewal, S. Lenk, M. Liero, A. Glitzky, S. Reineke. *Full Electrothermal OLED Model Including Nonlinear Self-heating Effects*, Phys. Rev. Applied, 10, 014023, 2018 [(Link)]("https://link.aps.org/doi/10.1103/PhysRevApplied.10.014023")
+0. A. Fischer, M. Pfalz, K. Vandewal, S. Lenk, M. Liero, A. Glitzky, S. Reineke. *Full Electrothermal OLED Model Including Nonlinear Self-heating Effects*, Phys. Rev. Applied, 10, 014023, 2018 [(Link)](https://link.aps.org/doi/10.1103/PhysRevApplied.10.014023)
 
-0. M. Liero, S. Reichelt. *Homogenization of Cahn--Hilliard-type equations via evolutionary $\Gamma$-convergence*, Nonlinear Differential Equations and Applications NoDEA, 25, 6, 2018, [(Link)]("https://doi.org/10.1007/s00030-018-0495-9")
+0. M. Liero, S. Reichelt. *Homogenization of Cahn--Hilliard-type equations via evolutionary $\Gamma$-convergence*, Nonlinear Differential Equations and Applications NoDEA, 25, 6, 2018, [(Link)](https://doi.org/10.1007/s00030-018-0495-9)
 
 0. J. Fuhrmann, A. Glitzky, M. Liero. *Hybrid Finite-Volume/Finite-Element Schemes for p(x)-Laplace Thermistor Models*, In: Cl&eacute;ment Canc&egrave;s, Pascal Omnes (eds.) Finite Volumes for Complex Applications VIII - Hyperbolic, Elliptic and Parabolic Problems: FVCA 8, Lille, France, June 2017, 397--405, 2017
 
@@ -111,9 +106,9 @@ See [teaching page](/teaching/) for more details.
 
 0. Miroslav Bul&iacute;&#269;ek, A. Glitzky, M. Liero. *Thermistor systems of p(x)-Laplace-type with discontinuous exponents via entropy solutions*, Discr. Cont. Dynam. Systems Ser. S, 10, 697--713, 2017 [(Link)](https://www.aimsciences.org/article/doi/10.3934/dcdss.2017035)
 
-0. M. Liero, A. Mielke, Mark A. Peletier, D. R. Michiel Renger. *On microscopic origins of generalized gradient structures*, Discr. Cont. Dynam. Systems Ser. S, 10, 1, 2017, [(Link)]("http://aimsciences.org//article/id/c40c3ab2-9b67-4a0b-a0ad-de66aeaf07c3")
+0. M. Liero, A. Mielke, Mark A. Peletier, D. R. Michiel Renger. *On microscopic origins of generalized gradient structures*, Discr. Cont. Dynam. Systems Ser. S, 10, 1, 2017, [(Link)](http://aimsciences.org//article/id/c40c3ab2-9b67-4a0b-a0ad-de66aeaf07c3)
 
-0. A. Glitzky, M. Liero. *Analysis of p(x)-Laplace thermistor models describing the electrothermal behavior of organic semiconductor devices*, Nonlinear Analysis: Real World Applications, 34, 536--562, 2017, [(Link)]("http://www.sciencedirect.com/science/article/pii/S1468121816301183")
+0. A. Glitzky, M. Liero. *Analysis of p(x)-Laplace thermistor models describing the electrothermal behavior of organic semiconductor devices*, Nonlinear Analysis: Real World Applications, 34, 536--562, 2017, [(Link)](http://www.sciencedirect.com/science/article/pii/S1468121816301183)
 
 0. M. Liero, A. Fischer, J. Fuhrmann, Th. Koprucki, A. Glitzky. *A PDE Model for Electrothermal Feedback in Organic Semiconductor Devices*, Progress in Industrial Mathematics at ECMI 2016, 99--106, 2017
 
@@ -123,28 +118,28 @@ See [teaching page](/teaching/) for more details.
 
 0. M. Bul&iacute;&#269;ek, A. Glitzky, M. Liero. *Systems describing electrothermal effects with p(x)-Laplace like structure for discontinuous variable exponents*, SIAM J. Math. Analysis, 48, 3496--3514, 2016 [(Link)](https://epubs.siam.org/doi/abs/10.1137/16M1062211?journalCode=sjmaah)
 
-0. A. Bercegol, B. Chacko, R. Klenk, I. Lauermann, M. Ch. Lux-Steiner, M. Liero. *Point contacts at the copper-indium-gallium-selenide interface--A theoretical outlook*, Journal of Applied Physics, 119, 155304, 2016, [(Link)]("https://doi.org/10.1063/1.4947267")
+0. A. Bercegol, B. Chacko, R. Klenk, I. Lauermann, M. Ch. Lux-Steiner, M. Liero. *Point contacts at the copper-indium-gallium-selenide interface--A theoretical outlook*, Journal of Applied Physics, 119, 155304, 2016, [(Link)](https://doi.org/10.1063/1.4947267)
 
-0. M. Liero, A. Mielke, G. Savar&eacute;. *Optimal Transport in Competition with Reaction: The Hellinger--Kantorovich Distance and Geodesic Curves*, SIAM Journal on Mathematical Analysis, 48, 2869--2911, 2016, [(Link)]("https://doi.org/10.1137/15M1041420")
+0. M. Liero, A. Mielke, G. Savar&eacute;. *Optimal Transport in Competition with Reaction: The Hellinger--Kantorovich Distance and Geodesic Curves*, SIAM Journal on Mathematical Analysis, 48, 2869--2911, 2016, [(Link)](https://doi.org/10.1137/15M1041420)
 
 0. M. Liero, Th. Koprucki, A. Fischer, R. Scholz, A. Glitzky, *p-Laplace thermistor modeling of electrothermal feedback in organic semiconductor devices*, Z. Angew. Math. Phys., 66, 2957--2977, 2015 [(Link)](https://link.springer.com/article/10.1007/s00033-015-0560-8)
 
-0. K. Disser, M. Liero. *On gradient structures for Markov chains and the passage to Wasserstein gradient flows*, Networks & Heterogeneous Media, 10, 233--253, 2015, [(Link)]("http://aimsciences.org//article/id/2c5d4c6f-b5e6-4ab3-b6e8-0d268d025407")
+0. K. Disser, M. Liero. *On gradient structures for Markov chains and the passage to Wasserstein gradient flows*, Networks & Heterogeneous Media, 10, 233--253, 2015, [(Link)](http://aimsciences.org//article/id/2c5d4c6f-b5e6-4ab3-b6e8-0d268d025407)
 
-0. M. Liero, A. Mielke. *Gradient structures and geodesic convexity for reaction-diffusion systems*, Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 371, 20120346, 2013, [(Link)]("https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2012.0346")
+0. M. Liero, A. Mielke. *Gradient structures and geodesic convexity for reaction-diffusion systems*, Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 371, 20120346, 2013, [(Link)](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2012.0346)
 
-0. M. Liero. *Passing from bulk to bulk-surface evolution in the Allen--Cahn equation*, Nonlinear Differential Equations and Applications NoDEA, 20, 919--942, 2013, [(Link)]("https://doi.org/10.1007/s00030-012-0189-7")
+0. M. Liero. *Passing from bulk to bulk-surface evolution in the Allen--Cahn equation*, Nonlinear Differential Equations and Applications NoDEA, 20, 919--942, 2013, [(Link)](https://doi.org/10.1007/s00030-012-0189-7)
 
 0. M. Liero, U. Stefanelli. *A new minimum principle for Lagrangian mechanics*, J. Nonlinear Sci., 23, 179--204, 2013 [(Link)](https://link.springer.com/article/10.1007%2Fs00332-012-9148-z)
 
 0. M. Liero, U. Stefanelli. *Weighted inertia-dissipation-energy functionals for semilinear equations*, Boll. Unione Mat. Ital. (9), 6, 1--27, 2013 [(Link)](https://eudml.org/doc/294053)
 
-0. M. Liero, Th. Roche. *Rigorous derivation of a plate theory in linear elastoplasticity via $\Gamma$-convergence*, Nonlinear Differential Equations and Applications NoDEA, 19, 437--457, 2012, [(Link)]("https://doi.org/10.1007/s00030-011-0137-y")
+0. M. Liero, Th. Roche. *Rigorous derivation of a plate theory in linear elastoplasticity via $\Gamma$-convergence*, Nonlinear Differential Equations and Applications NoDEA, 19, 437--457, 2012, [(Link)](https://doi.org/10.1007/s00030-011-0137-y)
 
-0. M. Liero, A. Mielke. *An evolutionary elastoplastic plate model derived via $\Gamma$-convergence*, Math. Models Meth. Appl. Sci. (M$^3$AS), 21, 1961--1986, 2011  [(Link)]("https://www.worldscientific.com/doi/10.1142/S0218202511005611")
+0. M. Liero, A. Mielke. *An evolutionary elastoplastic plate model derived via $\Gamma$-convergence*, Math. Models Meth. Appl. Sci. (M$^3$AS), 21, 1961--1986, 2011  [(Link)](https://www.worldscientific.com/doi/10.1142/S0218202511005611)
 
-0. Pavel Krej&#269;&iacute;, M. Liero. *Rate independent Kurzweil processes*, Applications of Mathematics, 54, 117--145, 2009, [(Link)]("https://dml.cz/handle/10338.dmlcz/140355")
+0. Pavel Krej&#269;&iacute;, M. Liero. *Rate independent Kurzweil processes*, Applications of Mathematics, 54, 117--145, 2009, [(Link)](https://dml.cz/handle/10338.dmlcz/140355)
 
-0. H. Liero, M. Liero. *Testing the Acceleration Function in Lifetime Models*, In: Filia Vonta, Mikhail Nikulin, Nikolaos Limnios, Catherine Huber-Carol (eds.) Statistical Models and Methods for Biomedical and Technical Systems, 225--239, 2008, [(Link)]("https://doi.org/10.1007/978-0-8176-4619-6_17")
+0. H. Liero, M. Liero. *Testing the Acceleration Function in Lifetime Models*, In: Filia Vonta, Mikhail Nikulin, Nikolaos Limnios, Catherine Huber-Carol (eds.) Statistical Models and Methods for Biomedical and Technical Systems, 225--239, 2008, [(Link)](https://doi.org/10.1007/978-0-8176-4619-6_17)
 
 
